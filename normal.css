@@ -1,0 +1,52 @@
+a{font-family: verdana, sans-serif; font-size: 8px}
+a:link {color: #333333; text-decoration: none}
+a:visited {color: #333; text-decoration: none}
+a:hover {color: #333333; text-decoration: none}
+a:active {color: #444444; text-decoration: none}
+
+img {border: 0px solid} 
+
+body.normal {background-color: #000000;
+background: url('img/bg.png');
+text-align: center;
+background-repeat: repeat-x}
+
+div.logo {background: url('img/logo.png');
+background-color: inherit;
+background-repeat: no-repeat;
+background-position: top center;
+width:600px;
+height:250px;
+margin:0px auto;
+z-index:1}
+
+div.connect {background-color: inherit;
+background-repeat: no-repeat;
+background-position: top center;
+width:500px;
+position:fixed; bottom:0px; left: 50%;
+margin-left: -250px;
+z-index:5}
+
+div.deph {background: url('img/deph.png');
+background-color: inherit;
+background-repeat: no-repeat;
+background-position: bottom right;
+position:fixed; bottom:0px; right:0px;
+width:200px;
+height:300px;
+z-index:2}
+
+div.sbubble {background: url('img/sbubble.png');
+background-color: inherit;
+background-repeat: no-repeat;
+background-position: bottom right;
+position:fixed; bottom:30px; right:100px;
+width:350px;
+height:250px;
+z-index:3}
+
+div.w3c {background-color: inherit;
+position:fixed; bottom:0px; left:0px;
+text-align: left;
+z-index:4}
